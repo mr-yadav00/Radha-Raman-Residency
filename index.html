@@ -399,6 +399,11 @@
       display: flex; align-items: center; justify-content: center;
       transition: transform 0.5s ease;
     }
+    .room-card-img img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      display: block;
+    }
     .room-card:hover .room-card-img { transform: scale(1.05); }
     .room-card-overlay {
       position: absolute;
@@ -859,10 +864,7 @@
 
   <div class="hero-right">
     <div class="hero-img-placeholder">
-        <!-- Replace src with your hero image -->
-        <img class="hero-img-main" src="radha.jpeg" alt="Radha Raman Residency">
-        <!-- <span class="img-icon">🏠</span>
-      <span class="img-label">Hero Image — Replace with building photo</span> -->
+        <img class="hero-img-main" src="images/hero_exterior.jpg" alt="Radha Raman Residency Premium Student Living Building Exterior">
       </div>
     <div class="hero-deco"></div>
   </div>
@@ -915,17 +917,10 @@
 <section class="about" id="about">
   <div class="about-imgs reveal">
     <div class="about-img-1">
-      <!-- Replace with actual image: <img src="about-1.jpg" style="width:100%;height:100%;object-fit:cover"> -->
-      <div style="text-align:center">
-        <div class="img-icon">🏡</div>
-        <p class="about-img-label">Building Exterior<br>Replace with photo</p>
-      </div>
+      <img src="images/about_entrance.jpg" alt="Radha Raman Residency Main Entrance Gate and Signboard" style="width:100%;height:100%;object-fit:cover">
     </div>
     <div class="about-img-2">
-      <div style="text-align:center">
-        <div class="img-icon">🛏️</div>
-        <p class="about-img-label">Room Interior<br>Replace with photo</p>
-      </div>
+      <img src="images/about_room.jpg" alt="Radha Raman Residency Clean & Comfortable Student Room Interior" style="width:100%;height:100%;object-fit:cover">
     </div>
   </div>
   <div class="about-content reveal">
@@ -964,21 +959,17 @@
   <div class="rooms-grid reveal">
     <div class="room-card featured">
       <div class="room-card-img" style="background: linear-gradient(160deg,#3a1a00,#8B5E3C);">
-        <!-- Replace: <img src="room-main.jpg" style="width:100%;height:100%;object-fit:cover"> -->
-        <div style="text-align:center">
-          <div class="placeholder-icon">🛏️</div>
-          <p class="placeholder-text">Main Room Photo</p>
-        </div>
+        <img src="images/room_featured.jpg" alt="Radha Raman Residency Premium Student Room" style="width:100%;height:100%;object-fit:cover">
       </div>
       <div class="room-card-overlay">
-        <div class="room-name">Standard Double Room</div>
-        <div class="room-tag">Most Popular · Study Desk Included</div>
+        <div class="room-name">Standard Student Room</div>
+        <div class="room-tag">Spacious Room · Study Desk & Wardrobe Included</div>
       </div>
     </div>
 
     <div class="room-card">
       <div class="room-card-img" style="background: linear-gradient(160deg,#1a0f00,#6b3d1a);">
-        <div style="text-align:center"><div class="placeholder-icon">🚿</div><p class="placeholder-text">Bathroom Photo</p></div>
+        <img src="images/room_bathroom.jpg" alt="Radha Raman Residency Clean & Hygienic Private Bathroom" style="width:100%;height:100%;object-fit:cover">
       </div>
       <div class="room-card-overlay">
         <div class="room-name">Modern Bathrooms</div>
@@ -988,31 +979,31 @@
 
     <div class="room-card">
       <div class="room-card-img" style="background: linear-gradient(160deg,#2a1500,#9b6b3d);">
-        <div style="text-align:center"><div class="placeholder-icon">📚</div><p class="placeholder-text">Study Zone Photo</p></div>
+        <img src="images/room_study.jpg" alt="Radha Raman Residency Dedicated Student Study Desk" style="width:100%;height:100%;object-fit:cover">
       </div>
       <div class="room-card-overlay">
         <div class="room-name">Study Area</div>
-        <div class="room-tag">Quiet · Well-lit · Comfortable</div>
+        <div class="room-tag">Quiet · Well-lit · Dedicated Desk & Shelves</div>
       </div>
     </div>
 
     <div class="room-card">
       <div class="room-card-img" style="background: linear-gradient(160deg,#0e0800,#5a3010);">
-        <div style="text-align:center"><div class="placeholder-icon">🍽️</div><p class="placeholder-text">Dining / Kitchen Area</p></div>
+        <img src="images/room_elevator.jpg" alt="Radha Raman Residency Premium Elevator Lift Lobby" style="width:100%;height:100%;object-fit:cover">
       </div>
       <div class="room-card-overlay">
-        <div class="room-name">Dining Area</div>
-        <div class="room-tag">Hygienic · Homely · Nutritious</div>
+        <div class="room-name">Elevator & Lift Lobby</div>
+        <div class="room-tag">Premium Lift · 24/7 Access for Students</div>
       </div>
     </div>
 
     <div class="room-card">
       <div class="room-card-img" style="background: linear-gradient(160deg,#1f1000,#7a4f2d);">
-        <div style="text-align:center"><div class="placeholder-icon">🏢</div><p class="placeholder-text">Building / Corridor</p></div>
+        <img src="images/room_corridor.jpg" alt="Radha Raman Residency Clean Spacious Corridors" style="width:100%;height:100%;object-fit:cover">
       </div>
       <div class="room-card-overlay">
         <div class="room-name">Common Spaces</div>
-        <div class="room-tag">Clean · Spacious · Well-maintained</div>
+        <div class="room-tag">Clean · Spacious Tiled Corridors · Well-maintained</div>
       </div>
     </div>
   </div>
