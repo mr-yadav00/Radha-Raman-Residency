@@ -175,3 +175,4 @@ img { max-width: 100%; height: auto; }
         height: 320px;
     }
 }
+.form-group select, .form-group select option { background: #1A1209; color: #ffffff; } .form-group select:focus { border-color: var(--gold); outline: none; }
