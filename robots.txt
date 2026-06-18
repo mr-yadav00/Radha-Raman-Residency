@@ -1,8 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /node_modules/
-Disallow: /package.json
-Disallow: /package-lock.json
-Disallow: /.git/
 
 Sitemap: https://mr-yadav00.github.io/Radha-Raman-Residency/sitemap.xml

@@ -1,0 +1,21 @@
+{
+  "name": "Radha Raman Residency",
+  "short_name": "Radha Raman",
+  "description": "Best Boys Hostel in Kota for JEE & NEET Students.",
+  "start_url": "/Radha-Raman-Residency/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a1a1a",
+  "icons": [
+    {
+      "src": "/Radha-Raman-Residency/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Radha-Raman-Residency/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
